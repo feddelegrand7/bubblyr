@@ -1,5 +1,5 @@
 Package: bubblyr
-Title: Beautiful Bubbles Background for 'shiny' Application
+Title: Beautiful Bubbles in 'shiny' Applications Background
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Mohamed El Fodil",
@@ -11,10 +11,17 @@ Authors@R:
            role = "cph",
            comment = "bubbly-bg library")
       )
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+Description: Creates bubbles within 'shiny' applications' background using the 'bubbly-bg' 'JavaScript' library.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+Imports: 
+    htmltools
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/feddelegrand7/bubblyr
+BugReports: https://github.com/feddelegrand7/bubblyr/issues
