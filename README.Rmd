@@ -60,7 +60,11 @@ list <- c(
     "life",
     "darksky",
     "orangina",
-    "meteor"
+    "meteor", 
+    "gravitas",
+    "rladies",
+    "sunshine",
+    "sweet"
   )
 
 knitr::kable(list, col.names = "Themes")

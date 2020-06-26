@@ -1,4 +1,5 @@
 
+
 #' Add beautiful interactive bubbles within Shing and RMarkdown backgrounds
 #'
 #' @param theme Name of the bubbles theme. See the vignette for a list of themes.
@@ -50,7 +51,12 @@ bubbly <- function(theme = "ocean") {
     "life",
     "darksky",
     "orangina",
-    "meteor"
+    "meteor",
+    "gravitas",
+    "rladies",
+    "sunshine",
+    "sweet"
+
   )) {
     stop(paste0(theme, " theme is not available, did you misspelled the theme ?"))
   }
@@ -611,7 +617,163 @@ bubbly <- function(theme = "ocean") {
 
 
 
+  } else if (theme == "gravitas") {
+    htmltools::tagList(
+      htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
+
+      htmltools::tags$script(
+        htmltools::HTML(
+          "
+  bubbly({
+  colorStart: '#F92672',
+  colorStop: '#59B6C7',
+  bubbles:222,
+  blur:1,
+  compose: 'source-over',
+  bubbleFunc:() => `hsla(${222 + Math.random() * 2}, 100%, 50%, 1)`,
+  angleFunc:() => Math.random() > 0.3 ? Math.PI : 1.2 * Math.PI,
+  velocityFunc:() => 2 + Math.random() * 1,
+  radiusFunc:() => Math.random() * 10
+    });
+
+
+      "
+
+
+
+
+        )
+      )
+
+
+    )
+
+
+
+
+  } else if (theme == "rladies") {
+    htmltools::tagList(
+      htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
+
+      htmltools::tags$script(
+        htmltools::HTML(
+          "
+
+
+    bubbly({
+    animate: true, // default is true
+    blur: 1, // default is 4
+    bubbleFunc: () => `hsla(${Math.random() * 1.232}, 100%, 50%, 0.5)`, // default is () => `hsla(0, 0%, 100%, ${r() * 0.1})`)
+    bubbles: 10, // default is Math.floor((canvas.width + canvas.height) * 0.02);
+    canvas: document.querySelector('#background'), // default is created and attached
+      colorStart: '#4AA2B9', // default is blue-ish
+      colorStop: '#4AA2B9',// default is blue-ish
+      compose: 'lighter', // default is 'lighter'
+      shadowColor: '#901A10', // default is #fff
+      angleFunc: () => Math.random() * Math.PI * 8, // default is this
+      velocityFunc: () => 2 + Math.random() * 0.5, // default is this
+      radiusFunc: () => 100 + Math.random() * 10 // default is 4 + Math.random() * width / 25
+      });
+
+      "
+
+
+
+
+        )
+      )
+
+
+    )
+
+
+
+  } else if (theme == "sunshine") {
+    htmltools::tagList(
+      htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
+
+      htmltools::tags$script(
+        htmltools::HTML(
+          "
+
+
+    bubbly({
+    animate: true, // default is true
+    blur: 1, // default is 4
+    bubbleFunc: () => `hsla(${Math.random() * 200.232}, 100%, 50%, 1)`, // default is () => `hsla(0, 0%, 100%, ${r() * 0.1})`)
+    bubbles: 30, // default is Math.floor((canvas.width + canvas.height) * 0.02);
+    canvas: document.querySelector('#background'), // default is created and attached
+      colorStart: '#FF9800', // default is blue-ish
+      colorStop: '#1B1B1B',// default is blue-ish
+      compose: 'lighter', // default is 'lighter'
+      shadowColor: '#4E5C68', // default is #fff
+      angleFunc: () => Math.random() * Math.PI * 2, // default is this
+      velocityFunc: () => 2 + Math.random() * 0.5, // default is this
+      radiusFunc: () => 20 + Math.random() * 5.5 // default is 4 + Math.random() * width / 25
+      });
+
+      "
+
+
+        )
+      )
+
+
+    )
+  } else if (theme == "sweet") {
+    htmltools::tagList(
+      htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
+
+      htmltools::tags$script(
+        htmltools::HTML(
+          "
+
+
+    bubbly({
+    animate: true, // default is true
+    blur: 1, // default is 4
+    bubbleFunc: () => `hsla(${Math.random() * 200.232}, 100%, 50%, 1)`, // default is () => `hsla(0, 0%, 100%, ${r() * 0.1})`)
+    bubbles: 20, // default is Math.floor((canvas.width + canvas.height) * 0.02);
+    canvas: document.querySelector('#background'), // default is created and attached
+      colorStart: '#e63946', // default is blue-ish
+      colorStop: '#8d99ae',// default is blue-ish
+      compose: 'lighter', // default is 'lighter'
+      shadowColor: '#4E5C68', // default is #fff
+      angleFunc: () => Math.random() * Math.PI * 2, // default is this
+      velocityFunc: () => 2 + Math.random() * 0.5, // default is this
+      radiusFunc: () => 20 + Math.random() * 5.5 // default is 4 + Math.random() * width / 25
+      });
+
+      "
+
+
+
+
+        )
+      )
+
+
+    )
+
+
+
+
+
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

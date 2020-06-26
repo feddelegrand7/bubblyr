@@ -50,6 +50,10 @@ bubbly-bg library, I just gave them some fancy names:
 | darksky  |
 | orangina |
 | meteor   |
+| gravitas |
+| rladies  |
+| sunshine |
+| sweet    |
 
 Below you can find some examples, feel free to experiment the remaining
 themes:
