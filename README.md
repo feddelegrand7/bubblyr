@@ -9,9 +9,9 @@
 
 `bubblyr` is an R wrapper of the JavaScript library
 [bubbly-bg](https://github.com/tipsy/bubbly-bg). It allows you to add
-beautiful animated bubbles within your Shiny application’s background.
-You can choose from several themes and apply the animation with one line
-of code.
+beautiful animated bubbles within Shiny and RMarkdown backgrounds. You
+can choose from several themes and apply the animation with one line of
+code.
 
 ## Installation
 

@@ -1,9 +1,9 @@
 
-#' Add beautiful interactive bubbles within shiny backgrounds
+#' Add beautiful interactive bubbles within Shing and RMarkdown background
 #'
 #' @param theme Name of the bubbles theme. See the vignette for a list of themes.
 #'
-#' @return Themed interactive bubbles in shiny apps' body
+#' @return Themed interactive bubbles for Shiny and RMarkdown background
 #' @export
 #'
 #' @examples

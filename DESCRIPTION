@@ -1,5 +1,5 @@
 Package: bubblyr
-Title: Beautiful Bubbles in 'shiny' Applications Background
+Title: Beautiful Bubbles for 'shiny' and 'rmarkdown' Background
 Version: 0.1.0
 Authors@R: 
     c(person(given = "Mohamed El Fodil",
@@ -11,7 +11,7 @@ Authors@R:
            role = "cph",
            comment = "bubbly-bg library")
       )
-Description: Creates bubbles within 'shiny' applications' background using the 'bubbly-bg' 'JavaScript' library.
+Description: Creates bubbles within 'shiny' and 'rmarkdown' background using the 'bubbly-bg' 'JavaScript' library.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
