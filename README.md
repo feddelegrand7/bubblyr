@@ -71,7 +71,7 @@ server <- function(input, output) {}
 shinyApp(ui = ui, server = server)
 ```
 
-![](man/meteor.gif)
+![](man/figures/meteor.gif)
 
 ``` r
 library(shiny)
@@ -88,7 +88,7 @@ server <- function(input, output) {}
 shinyApp(ui = ui, server = server)
 ```
 
-![](man/bigmom.gif)
+![](man/figures/bigmom.gif)
 
 ``` r
 library(shiny)
@@ -105,7 +105,7 @@ server <- function(input, output) {}
 shinyApp(ui = ui, server = server)
 ```
 
-![](man/rstudio.gif)
+![](man/figures/rstudio.gif)
 
 ``` r
 library(shiny)
@@ -122,7 +122,7 @@ server <- function(input, output) {}
 shinyApp(ui = ui, server = server)
 ```
 
-![](man/classy.gif)
+![](man/figures/classy.gif)
 
 ## Code of Conduct
 

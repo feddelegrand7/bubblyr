@@ -87,7 +87,7 @@ shinyApp(ui = ui, server = server)
 
 ```
 
-![](man/meteor.gif)
+![](man/figures/meteor.gif)
 
 
 
@@ -107,7 +107,7 @@ shinyApp(ui = ui, server = server)
 
 ```
 
-![](man/bigmom.gif)
+![](man/figures/bigmom.gif)
 
 
 ```{r, eval=FALSE}
@@ -127,7 +127,7 @@ shinyApp(ui = ui, server = server)
 ```
 
 
-![](man/rstudio.gif)
+![](man/figures/rstudio.gif)
 
 ```{r, eval=FALSE}
 library(shiny)
@@ -146,7 +146,7 @@ shinyApp(ui = ui, server = server)
 ```
 
 
-![](man/classy.gif)
+![](man/figures/classy.gif)
 
 
 ## Code of Conduct
