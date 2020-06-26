@@ -54,6 +54,8 @@ bubbly-bg library, I just gave them some fancy names:
 Below you can find some examples, feel free to experiment the remaining
 themes:
 
+#### Important: You may experiment some lags if you view your Shiny app in RStudio, instead experiment the themes in the browser.
+
 ``` r
 library(shiny)
 library(bubblyr)
