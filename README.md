@@ -62,23 +62,6 @@ library(bubblyr)
 
 ui <- fluidPage(
 
-    bubbly(theme = "meteor")
-
-)
-
-server <- function(input, output) {}
-
-shinyApp(ui = ui, server = server)
-```
-
-![](man/figures/meteor.gif)
-
-``` r
-library(shiny)
-library(bubblyr)
-
-ui <- fluidPage(
-
     bubbly(theme = "bigmom")
 
 )
