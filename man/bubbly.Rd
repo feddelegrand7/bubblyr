@@ -2,7 +2,7 @@
 % Please edit documentation in R/bubbly.R
 \name{bubbly}
 \alias{bubbly}
-\title{Add beautiful interactive bubbles within Shing and RMarkdown background}
+\title{Add beautiful interactive bubbles within Shing and RMarkdown backgrounds}
 \usage{
 bubbly(theme = "ocean")
 }
@@ -10,10 +10,10 @@ bubbly(theme = "ocean")
 \item{theme}{Name of the bubbles theme. See the vignette for a list of themes.}
 }
 \value{
-Themed interactive bubbles for Shiny and RMarkdown background
+Themed interactive bubbles for Shiny and RMarkdown backgrounds
 }
 \description{
-Add beautiful interactive bubbles within Shing and RMarkdown background
+Add beautiful interactive bubbles within Shing and RMarkdown backgrounds
 }
 \examples{
  if (interactive()) {
