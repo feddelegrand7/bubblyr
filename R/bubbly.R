@@ -60,7 +60,7 @@ bubbly <- function(theme = "ocean") {
     htmltools::tagList(
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
-      htmltools::tags$script(HTML("bubbly();"))
+      htmltools::tags$script(htmltools::HTML("bubbly();"))
 
 
     )
@@ -71,7 +71,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "bubbly({colorStart: '#111',colorStop: '#422',bubbleFunc: () => `hsla(0, 100%, 50%, ${Math.random() * 0.25})`});"
 
 
@@ -88,7 +88,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "bubbly({colorStart: '#4c004c',colorStop: '#1a001a',bubbleFunc: () => `hsla(${Math.random() * 360}, 100%, 50%, ${Math.random() * 0.25})`});"
 
 
@@ -106,7 +106,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "bubbly({colorStart: '#fff4e6', colorStop: '#ffe9e4', blur: 1, compose: 'source-over', bubbleFunc: () => `hsla(${Math.random() * 50}, 100%, 50%, .3)`});"
 
 
@@ -123,7 +123,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "bubbly({blur:15, colorStart: '#194167', colorStop: '#112144', radiusFunc:() => 5 + Math.random() * 15, angleFunc:() => -Math.PI / 2, velocityFunc:() => Math.random() * 1.5, bubbleFunc:() => `hsla(${200 + Math.random() * 50}, 100%, 65%, .1)`,bubbles:350});"
 
 
@@ -140,7 +140,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -177,7 +177,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -217,7 +217,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -255,7 +255,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -296,7 +296,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -336,7 +336,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -371,7 +371,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -409,7 +409,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -444,7 +444,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
 
     bubbly({
@@ -483,7 +483,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
   bubbly({
   colorStart: '#a4cc2b',
@@ -516,7 +516,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
   bubbly({
   colorStart: '#272822',
@@ -549,7 +549,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
   bubbly({
   colorStart: '#4E5C68',
@@ -581,7 +581,7 @@ bubbly <- function(theme = "ocean") {
       htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
 
       htmltools::tags$script(
-        HTML(
+        htmltools::HTML(
           "
   bubbly({
   colorStart: '#4E5C68',

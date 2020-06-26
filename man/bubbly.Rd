@@ -2,7 +2,7 @@
 % Please edit documentation in R/bubbly.R
 \name{bubbly}
 \alias{bubbly}
-\title{Create themed interactive bubbles within shiny backgrounds}
+\title{Add beautiful interactive bubbles within shiny backgrounds}
 \usage{
 bubbly(theme = "ocean")
 }
@@ -13,7 +13,7 @@ bubbly(theme = "ocean")
 Themed interactive bubbles in shiny apps' body
 }
 \description{
-Create themed interactive bubbles within shiny backgrounds
+Add beautiful interactive bubbles within shiny backgrounds
 }
 \examples{
  if (interactive()) {
