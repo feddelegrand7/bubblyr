@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+![CRAN status](https://www.r-pkg.org/badges/version/bubblyr)
+
+![](http://cranlogs.r-pkg.org/badges/grand-total/bubblyr?color=blue)
+
 <!-- badges: end -->
 
 `bubblyr` is an R wrapper of the JavaScript library
@@ -14,6 +18,13 @@ can choose from several themes and apply the animation with one line of
 code.
 
 ## Installation
+
+You can install the `bubblyr` package from CRAN with:
+
+``` r
+
+install.packages("bubblyr")
+```
 
 You can install the development version of `bubblyr` from Github with:
 
@@ -30,7 +41,7 @@ Here a list of all the available themes. Note that The ocean, cherry,
 hippie, bigmom and deepsea themes are provided by the author of the
 bubbly-bg library, I just gave them some fancy names:
 
-## Important: gravitas, rladies, sunshine, sweet themes are available only in the development version of `bubblyr`.
+## Important: gravitas, rladies, sunshine, sweet themes are available currently only in the development version of `bubblyr`.
 
 | Themes   |
 | :------- |
