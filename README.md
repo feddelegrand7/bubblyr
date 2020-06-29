@@ -30,6 +30,8 @@ Here a list of all the available themes. Note that The ocean, cherry,
 hippie, bigmom and deepsea themes are provided by the author of the
 bubbly-bg library, I just gave them some fancy names:
 
+## Important: gravitas, rladies, sunshine, sweet themes are available only in the development version of `bubblyr`.
+
 | Themes   |
 | :------- |
 | ocean    |
