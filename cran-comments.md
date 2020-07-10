@@ -5,10 +5,11 @@
 
 
    
--- R CMD check results ---------- bubblyr 0.1.0 ----
-Duration: 19.4s
+-- R CMD check results ----------------------------- bubblyr 0.1.0 ----
+Duration: 28.8s
 
 0 errors √ | 0 warnings √ | 0 notes √
 
 
-* This is a new release.
+* I've added the License of the bubbly-bg JS library 
+* I've added new themes: "gravitas", "rladies", "sunshine", "sweet"
