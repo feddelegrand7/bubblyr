@@ -43,6 +43,9 @@ Here a list of all the available themes. Note that The ocean, cherry,
 hippie, bigmom and deepsea themes are provided by the author of the
 bubbly-bg library, I just gave them some fancy names:
 
+\#\#\#IMPORTANT: I’ve recently added the **lalaland** theme which is
+only available in the development version of the package.
+
 | Themes   |
 | :------- |
 | ocean    |
@@ -67,11 +70,12 @@ bubbly-bg library, I just gave them some fancy names:
 | rladies  |
 | sunshine |
 | sweet    |
+| lalaland |
 
 Below you can find some examples, feel free to experiment the remaining
 themes:
 
-#### Important: You may experiment some lags if you view your Shiny app in RStudio, instead experiment the themes in the browser.
+#### Important: You may experiment some lags when viewing your Shiny app/Rmd Document in the RStudio pane, instead use the browser.
 
 ``` r
 library(shiny)

@@ -60,6 +60,7 @@ remotes::install_github("feddelegrand7/bubblyr")
 
 Here a list of all the available themes. Note that The ocean, cherry, hippie, bigmom and deepsea themes are provided by the author of the bubbly-bg library, I just gave them some fancy names: 
 
+###IMPORTANT: I've recently added the __lalaland__ theme which is only available in the development version of the package. 
 
 ```{r, echo=FALSE}
 list <- c(
@@ -84,7 +85,8 @@ list <- c(
     "gravitas",
     "rladies",
     "sunshine",
-    "sweet"
+    "sweet", 
+    "lalaland"
   )
 
 knitr::kable(list, col.names = "Themes")
@@ -92,8 +94,7 @@ knitr::kable(list, col.names = "Themes")
 
 Below you can find some examples, feel free to experiment the remaining themes: 
 
-#### Important: You may experiment some lags if you view your Shiny app in RStudio, instead experiment the themes in the browser. 
-
+#### Important: You may experiment some lags when viewing your Shiny app/Rmd Document in the RStudio pane, instead use the browser. 
 
 
 ```{r, eval=FALSE}

@@ -55,7 +55,8 @@ bubbly <- function(theme = "ocean") {
     "gravitas",
     "rladies",
     "sunshine",
-    "sweet"
+    "sweet",
+    "lalaland"
 
   )) {
     stop(paste0(theme, " theme is not available, did you misspelled the theme ?"))
@@ -757,6 +758,39 @@ bubbly <- function(theme = "ocean") {
 
 
 
+
+
+  } else if (theme == "lalaland"){
+
+    htmltools::tagList(
+
+      htmltools::tags$script(src = "https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"),
+
+      htmltools::tags$script(
+        htmltools::HTML(
+          "
+  bubbly({
+  colorStart: '#0A0C12',
+  colorStop: '#0B0E15',
+  bubbles:100,
+  blur:0,
+  compose: 'source-over',
+  bubbleFunc:() => `hsla(${0 + Math.random() * 10}, 100%, 100%, 1)`,
+  velocityFunc:() => 0.05 + Math.random() * 0.05,
+  radiusFunc:() => Math.random() * 1.2
+    });
+
+
+      "
+
+
+
+
+        )
+      )
+
+
+    )
 
 
   }
