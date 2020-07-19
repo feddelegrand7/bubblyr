@@ -16,7 +16,6 @@
 [![Travis build
 status](https://travis-ci.com/feddelegrand7/bubblyr.svg?branch=master)](https://travis-ci.com/feddelegrand7/bubblyr)
 
-<a href="https://www.buymeacoffee.com/Fodil" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 <!-- badges: end -->
 
 `bubblyr` is an R wrapper of the JavaScript library
@@ -47,7 +46,7 @@ remotes::install_github("feddelegrand7/bubblyr")
 
 Here a list of all the available themes. Note that The ocean, cherry,
 hippie, bigmom and deepsea themes are provided by the author of the
-bubbly-bg library, I just gave them some fancy names:
+bubbly-bg JavaScript library, I just gave them some fancy names:
 
 \#\#\#IMPORTANT: I’ve recently added the **lalaland** theme which is
 only available in the development version of the package.
@@ -81,7 +80,7 @@ only available in the development version of the package.
 Below you can find some examples, feel free to experiment the remaining
 themes:
 
-#### Important: You may experiment some lags when viewing your Shiny app/Rmd Document in the RStudio pane, instead use the browser.
+#### Important: You may experiment some lags when viewing your Shiny/Rmd Document in the RStudio pane, instead use the browser.
 
 ``` r
 library(shiny)
