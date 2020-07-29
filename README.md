@@ -24,6 +24,10 @@ beautiful animated bubbles within Shiny and RMarkdown backgrounds. You
 can choose from several themes and apply the animation with one line of
 code.
 
+<center>
+
+![](man/figures/lalalandexample.gif)
+
 ## Installation
 
 You can install the `bubblyr` package from CRAN with:

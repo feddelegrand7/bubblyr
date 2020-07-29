@@ -34,6 +34,11 @@ knitr::opts_chunk$set(
 `bubblyr` is an R wrapper of the JavaScript library [bubbly-bg](https://github.com/tipsy/bubbly-bg). It allows you to add beautiful animated bubbles within Shiny and RMarkdown backgrounds. You can choose from several themes and apply the animation with one line of code. 
 
 
+<center>
+
+![](man/figures/lalalandexample.gif)
+
+
 ## Installation
 
 You can install the `bubblyr` package from CRAN with: 
