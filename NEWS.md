@@ -1,3 +1,5 @@
+# bubblyr 0.1.2
+
 # bubblyr 0.1.1
 
 - I've added new themes: "gravitas", "rladies", "sunshine", "sweet"

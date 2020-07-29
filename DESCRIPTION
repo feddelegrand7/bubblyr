@@ -1,6 +1,6 @@
 Package: bubblyr
 Title: Beautiful Bubbles for 'shiny' and 'rmarkdown' Backgrounds
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     c(person(given = "Mohamed El Fodil",
            family = "Ihaddaden",

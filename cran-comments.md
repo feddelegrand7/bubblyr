@@ -11,3 +11,5 @@ Duration: 28.8s
 0 errors √ | 0 warnings √ | 0 notes √
 
 * I've added the 'lalaland' theme
+
+* I've added the color argument in which the user can specify the text color.
