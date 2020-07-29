@@ -4,10 +4,12 @@
 \alias{bubbly}
 \title{Add beautiful interactive bubbles within Shing and RMarkdown backgrounds}
 \usage{
-bubbly(theme = "ocean")
+bubbly(theme = "ocean", color = "white")
 }
 \arguments{
 \item{theme}{Name of the bubbles theme. See the vignette for a list of themes.}
+
+\item{color}{Text color. Defaults to 'white'}
 }
 \value{
 Themed interactive bubbles for Shiny and RMarkdown backgrounds
