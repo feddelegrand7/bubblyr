@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# bubblyr
+# bubblyr <a><img src='man/figures/hex.png' align="right" height="200" /></a>
 
 <!-- badges: start -->
 
@@ -47,9 +47,6 @@ remotes::install_github("feddelegrand7/bubblyr")
 Here a list of all the available themes. Note that The ocean, cherry,
 hippie, bigmom and deepsea themes are provided by the author of the
 bubbly-bg JavaScript library, I just gave them some fancy names:
-
-\#\#\#IMPORTANT: I’ve recently added the **lalaland** theme which is
-only available in the development version of the package.
 
 | Themes   |
 | :------- |
