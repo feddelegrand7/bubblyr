@@ -10,6 +10,4 @@ Duration: 28.8s
 
 0 errors √ | 0 warnings √ | 0 notes √
 
-
-* I've added the License of the bubbly-bg JS library 
-* I've added new themes: "gravitas", "rladies", "sunshine", "sweet"
+* I've added the 'lalaland' theme
