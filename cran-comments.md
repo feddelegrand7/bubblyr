@@ -4,11 +4,11 @@
 * win-builder (devel)
 
 
-   
--- R CMD check results ----------------------------- bubblyr 0.1.0 ----
-Duration: 28.8s
+-- R CMD check results ----------------------------- bubblyr 0.1.2 ----
+Duration: 17.7s
 
-0 errors √ | 0 warnings √ | 0 notes √
+0 errors √ | 0 warnings √ | 0 notes √   
+
 
 * I've added the 'lalaland' theme
 
