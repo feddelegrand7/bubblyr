@@ -81,7 +81,7 @@ bubbly-bg JavaScript library, I just gave them some fancy names:
 Below you can find some examples, feel free to experiment the remaining
 themes:
 
-#### Important: You may experiment some lags when viewing your Shiny/Rmd Document in the RStudio pane, instead use the browser.
+##### Important: You may experiment some lags when viewing your Shiny/Rmd Document in the RStudio pane, use the browser instead.
 
 ``` r
 library(shiny)
