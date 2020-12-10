@@ -6,16 +6,13 @@
 <!-- badges: start -->
 
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/bubblyr)](https://cran.r-project.org/package=bubblyr)
-
 [![CRAN\_time\_from\_release](https://www.r-pkg.org/badges/ago/bubblyr)](https://cran.r-project.org/package=bubblyr)
-
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/bubblyr)](https://cran.r-project.org/package=bubblyr)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/bubblyr?color=blue)
-
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
-
-[![Travis build
-status](https://travis-ci.com/feddelegrand7/bubblyr.svg?branch=master)](https://travis-ci.com/feddelegrand7/bubblyr)
-
+[![R build
+status](https://github.com/feddelegrand7/bubblyr/workflows/R-CMD-check/badge.svg)](https://github.com/feddelegrand7/bubblyr/actions)
 <!-- badges: end -->
 
 `bubblyr` is an R wrapper of the JavaScript library
@@ -33,14 +30,12 @@ code.
 You can install the `bubblyr` package from CRAN with:
 
 ``` r
-
 install.packages("bubblyr")
 ```
 
 You can install the development version of `bubblyr` from Github with:
 
 ``` r
-
 install.packages("remotes") #if not installed
 
 remotes::install_github("feddelegrand7/bubblyr")
@@ -53,7 +48,7 @@ hippie, bigmom and deepsea themes are provided by the author of the
 bubbly-bg JavaScript library, I just gave them some fancy names:
 
 | Themes   |
-| :------- |
+|:---------|
 | ocean    |
 | cherry   |
 | hippie   |
