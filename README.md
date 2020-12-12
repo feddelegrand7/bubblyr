@@ -4,18 +4,12 @@
 # bubblyr <a><img src='man/figures/hex.png' align="right" height="200" /></a>
 
 <!-- badges: start -->
-
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/bubblyr)](https://cran.r-project.org/package=bubblyr)
-
 [![CRAN\_time\_from\_release](https://www.r-pkg.org/badges/ago/bubblyr)](https://cran.r-project.org/package=bubblyr)
-
 [![metacran
 downloads](https://cranlogs.r-pkg.org/badges/bubblyr)](https://cran.r-project.org/package=bubblyr)
-
 ![](http://cranlogs.r-pkg.org/badges/grand-total/bubblyr?color=blue)
-
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
-
 [![R build
 status](https://github.com/feddelegrand7/bubblyr/workflows/R-CMD-check/badge.svg)](https://github.com/feddelegrand7/bubblyr/actions)
 <!-- badges: end -->
